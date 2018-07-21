@@ -53,12 +53,56 @@
 .social-links{
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
 .social-links i {
-  colro: white;
+  color: white;
   font-size: 5em;
   padding: 8px;
+}
+.projects-grid{
+  display: flex;
+  
+}
+.grid-content{
+ 
+}
+.category-tabs{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-links{
+    display: inline;
+    justify-content: space-between;
+    
+    margin: auto;
+  }
+  .category-tabs{
+    
+  }
+  .social-links i {
+    color: white;
+    font-size: 2em;
+    padding: 8px;
+  }
+  .banner-text h1 {
+    font-size: 39px;
+    font-weight: bold;
+    color: white;
+  }
+  .banner-text p {
+    color: white;
+    font-size: 15px;
+    padding: 1em;
+  }
 }

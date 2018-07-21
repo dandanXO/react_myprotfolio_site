@@ -25,19 +25,19 @@ class Landing extends Component{
                                 </a>
                                 {/*Github*/}
                                 <a href="https://github.com/dandanXO" target="_blank" rel="noopener noreferrer">
-                                    <i class="fab fa-github"></i>
+                                    <i className="fab fa-github"/>
                                 </a>
                                  {/*Facebook*/}
                                  <a href="https://www.facebook.com/pigpig336699" target="_blank" rel="noopener noreferrer">
-                                    <i class="fab fa-facebook"></i>
+                                    <i className="fab fa-facebook"/>
                                 </a>
                                  {/*blog*/}
                                  <a href="https://blog.dandan.tw" target="_blank" rel="noopener noreferrer">
-                                    <i class="fab fa-blogger-b"></i>
+                                    <i className="fab fa-blogger-b" />
                                 </a>
                                 {/*cakerusume*/}
                                 <a href="https://www.cakeresume.com/91daf4" target="_blank" rel="noopener noreferrer">
-                                    <i class="fas fa-file"></i>
+                                    <i className="fas fa-file"/>
                                 </a>
                             </div>
                         </div>
