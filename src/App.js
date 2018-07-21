@@ -10,8 +10,8 @@ class App extends Component {
      /* Uses a header that scrolls with the text, rather than staying locked at the top */
       <div className="demo-big-content">
           <Layout>
-              <Header title="Title" scroll>
-                  <Navigation>
+              <Header title="Title" scroll className="header-color">
+                  <Navigation >
                       <Link to="/resume">Resume</Link>
                       <Link to="/about">About</Link>
                       <Link to="/project">Projects</Link>

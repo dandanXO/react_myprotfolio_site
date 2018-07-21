@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-react": "^7.10.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-mdl": "^1.11.0",
