@@ -1,7 +1,7 @@
 {
   "name": "react_myprotfoliosite",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://dandanxo.github.io/react_myprotfolio_site",
   "dependencies": {
     "eslint-config-defaults": "^9.0.0",

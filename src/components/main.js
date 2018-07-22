@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
 
 import LandingPage from './landingpage';
-import AboutMe from './about';
+
 import Contact from './contact';
 import Projects from './project';
 import Resume from './resume';
@@ -19,7 +19,7 @@ const Main = () => (
       className="switch-wrapper"
     >
     <Route exact path="/" component={LandingPage} />
-    <Route path="/about" component={AboutMe} />
+    
     <Route path="/contact" component={Contact} />
     <Route path="/project" component={Projects} />
     <Route path="/resume" component={Resume} />
