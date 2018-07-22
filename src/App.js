@@ -10,9 +10,9 @@ class App extends Component {
      /* Uses a header that scrolls with the text, rather than staying locked at the top */
       <div className="demo-big-content">
           <Layout>
-              <Header title="Dandan Portfolio" href="/" scroll className="header-color">
+          <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
                   <Navigation >
-                      <Link to="/">Landing</Link>
+                      
                       <Link to="/resume">Resume</Link>
                       <Link to="/about">About</Link>
                       <Link to="/project">Projects</Link>
@@ -21,7 +21,7 @@ class App extends Component {
               </Header>
               <Drawer title="Menu">
                   <Navigation>
-                    <Link to="/">Landing</Link>
+                    
                     <Link to="/resume">Resume</Link>
                     <Link to="/about">About</Link>
                     <Link to="/project">Projects</Link>
