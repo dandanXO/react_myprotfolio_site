@@ -1,7 +1,8 @@
 import React ,{Component}  from 'react';
 import {Grid, Cell} from 'react-mdl';
-import Education from './education'
-import Experience from './experience'
+import Education from './education';
+import Experience from './experience';
+import Skill from './skill';
 
 class Resume extends Component{
     constructor (props) {
@@ -28,7 +29,7 @@ class Resume extends Component{
                         <h2 style={{paddingTop:'1em',}}>Dandan</h2>
                         <h4 style={{color:'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2',width:'50%'}}/>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to </p>
+                        <p>我是康皓  ，出生於臺北，畢業於高雄科技大學資訊管理系，個性較為內向，面對問題常抱著樂觀的態度去面對，喜歡學習新知識。在大學期間成績偏中上，但和程式語言相關的課程都取得高分自從進入大學後，上了第一堂JAVA課程讓我對程式語言有了很大的興趣，在3，4年級有擔任系上網路組負責維護系上伺服器與網頁部分，更能了解到實務上的麻煩與解決問題的能力，後來nodejs的興起想更深入了解網站開發的知識因此自學了HTML，CSS，JAVASCRIPT與express框架等，在大三專題是製作無線網路共享的方案，藉由陌生人提供免費的網路讓其他使用者受惠，並從中了解到手機與後段SERVER溝通的方式與做法，在與隊友溝通的過程了解到分工與文件的重要性。專題結束後，前端框架的崛起對於VUE起了很大的興趣寫了一個side  project  聚會系統可以登入舉辦聚會，加入聚會等。另外，在一次實習中有更深入了解到Restfulapi與文件的撰寫方式，完成了一個需要以token方式做存取的爬蟲api功能。</p>
                         <hr style={{borderTop: '3px solid #833fb2',width:'50%'}}/>
                         <h5>Address</h5>
                         <p>TW·Hsinchu/Taipei</p>
@@ -63,10 +64,28 @@ class Resume extends Component{
                         <Experience
                          startYear={2018+'/'+1}
                          endYear={2018+'/'+6}
-                         department=""
-                         jobName=""
-                         jobDescription=''
+                         department="語音小助理 Elise"
+                         jobName="實習-工程師"
+                         jobDescription="撰寫與維護爬衝API"
                         />
+                         <Experience
+                         startYear={2016+'/'+7}
+                         endYear={2016+'/'+8}
+                         department="高雄市立圖書館"
+                         jobName="實習"
+                         jobDescription="書籍資料維護"
+                        />
+                        <hr style={{borderTop:'3px solid #e22947'}} />
+                        <h2>Skill</h2>
+                        <Skill skill='Java' progress={85}/>
+                        <Skill skill='Javascript' progress={90}/>
+                        <Skill skill='Html/Css' progress={83}/>
+                        <Skill skill='NodeJS' progress={90}/>
+                        <Skill skill='Vue.js' progress={80}/>
+                        <Skill skill='React.js' progress={50}/>
+                        <Skill skill='mongodb/firebase' progress={40}/>
+                        <hr style={{borderTop:'3px solid #e22947'}} />
+                        <p>Interesting test</p>
                         <textarea type="text" onChange={this.handelChange} value={ this.state.message} />
                 <p>{this.state.message}</p>
                     </Cell>
