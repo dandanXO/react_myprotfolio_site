@@ -55,7 +55,7 @@ class Resume extends Component{
                         <Education 
                         startYear={2011}
                         endYear={2014}
-                        department="資料處理科"
+                        department="資料處理科 "
                         schoolName="國立新竹高級商業職業學校 National HsinChu Commercial & Vocational High School"
                         schoolDescription=''
                         />
