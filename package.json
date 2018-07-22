@@ -2,6 +2,7 @@
   "name": "react_myprotfoliosite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dandanxo.github.io/react_myprotfolio_site",
   "dependencies": {
     "eslint-config-defaults": "^9.0.0",
     "eslint-plugin-react": "^7.10.0",
@@ -16,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
   }
 }
