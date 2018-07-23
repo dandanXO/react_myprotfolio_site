@@ -22,19 +22,19 @@ class Contact extends Component{
                     <div className="contact-list">
                         <List>
                         <ListItem>
-                            <ListItemContent style={{fontSize: '30px',fontFamily:'Anton'}}>
+                            <ListItemContent style={{fontSize: '24px',fontFamily:'Anton'}}>
                             <i class="fas fa-mobile-alt"></i>
                                 (+886)983914037
                             </ListItemContent>
                         </ListItem>
                         <ListItem>
-                            <ListItemContent style={{fontSize: '30px',fontFamily:'Anton'}}>
+                            <ListItemContent style={{fontSize: '24px',fontFamily:'Anton'}}>
                             <i class="fas fa-envelope"></i>
                                 dandanxo.1996@gmail.com
                             </ListItemContent>
                         </ListItem>
                         <ListItem>
-                            <ListItemContent style={{fontSize: '30px',fontFamily:'Anton'}}>
+                            <ListItemContent style={{fontSize: '24px',fontFamily:'Anton'}}>
                             <i class="fab fa-blogger-b"></i>
                                blog.dandan.tw
                             </ListItemContent>

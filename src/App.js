@@ -28,7 +28,7 @@ class App extends Component {
                     <Link to="/contact">Contact</Link>
                   </Navigation>
               </Drawer>
-              <Content>
+              <Content className='app-contant'>
                   
                   <Main />
               </Content>
