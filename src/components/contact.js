@@ -14,7 +14,7 @@ class Contact extends Component{
                         alt="avatar"
                         style={{height: '250px'}}
                     />
-                    <p style={{width:'75%' ,margin:'auto',paddingTop:'1em',}}>Contrary to popular belief, Lorem Ipsum pden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, f.</p>
+                    <p style={{width:'75%' ,margin:'auto',paddingTop:'1em',}}>If you have any further question, please feel free to contact me.</p>
                    </Cell> 
                    <Cell col={6}>
                     <h2>Contact Me</h2>
