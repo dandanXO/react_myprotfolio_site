@@ -92,7 +92,7 @@ class Project extends Component{
                         </CardText>
                         <CardActions border style={{display: 'flex',justifyContent:'center'}}>
                             <Button colored href="https://github.com/dandanXO/FB_crawler" target="_blank">Github</Button>
-                            <Button colored href="http://fbcrawler.mvn3njjrwf.ap-southeast-1.elasticbeanstalk.com/s/goddess1688" target="_blank">Demo</Button>
+                            <Button colored href="http://13.229.212.130/" target="_blank">Demo</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share"/>    
